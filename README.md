@@ -1,5 +1,5 @@
-Script detect_key_points_from_video.py is generate output csv file from video using openpose.
-It assumed that openpose build is placed on neighborhood directory, ex.:
+Script detect_key_points_from_video.py is generated output csv file from video using openpose.
+It is assumed that openpose build is placed in neighborhood directory, ex.:
 ```bash
 $ ls -l
 total 0
