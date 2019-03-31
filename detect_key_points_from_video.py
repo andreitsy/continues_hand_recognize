@@ -23,7 +23,8 @@ try:
         # Change these variables to point to the correct folder (Release/x64 etc.)
         python_path = os.path.join(dir_path, "build", "python")
         sys.path.append(python_path)
-        path_release = dir_path        # If you run `make install` (default path is `/usr/local/python` for Ubuntu),
+        path_release = dir_path  
+        # If you run `make install` (default path is `/usr/local/python` for Ubuntu),
         # you can also access the OpenPose/python module from there.
         # This will install OpenPose and the python library at your desired installation path.
         # Ensure that this is in your python path in order to use it.
